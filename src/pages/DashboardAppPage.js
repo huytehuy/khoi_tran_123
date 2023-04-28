@@ -39,10 +39,10 @@ export default function DashboardAppPage() {
         </Typography>
 
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={6} md={4}>
+          {/* <Grid item xs={12} sm={6} md={4}>
 
             <AppWidgetSummary title="ON" total="Light" icon={'ant-design:bulb-outlined'} /><bulbOutlined />
-          </Grid>
+          </Grid> */}
 
           <Grid item xs={12} sm={6} md={4}>
             <AppWidgetSummary title="Face Scan" total="Face Recognitiont" color="info" icon={'ant-design:smile-outlined'} />
